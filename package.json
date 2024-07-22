@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {
+  "dependencies": {
     "@types/node": "^10.5.7",
     "concurrently": "^3.6.1",
-    "nodemon": "^1.18.3",
+    "nodemon": "^3.1.4",
     "ts-node": "^7.0.0",
     "tslint": "^5.11.0",
     "typescript": "^3.0.1"
