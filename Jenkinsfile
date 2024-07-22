@@ -9,6 +9,8 @@ appData=[
   mavenTestGoals: "test"
 ]
 
+env.DEFAULT_JFROG_TOOL = "jfrog-cli"
+
 if (env.BRANCH_NAME == "master") {
     echo "Production releases should go through release pipeline"
 } else if (env.BRANCH_NAME == "integration") {
