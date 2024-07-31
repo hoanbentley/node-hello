@@ -1,6 +1,9 @@
 #!groovy
 // @Library(['jenkins-shared-pipelines@pe-generator-pipeline']) _
-@Library(['jenkins-shared-pipelines@npm-local-registry']) _
+// @Library(['jenkins-shared-pipelines@npm-local-registry']) _
+@Library(['jenkins-shared-pipelines@npm-local-registry',
+'jenkins-shared-libraries@npmLocalNpm'
+]) _
 
 appData=[
   binaryPath : "node-hello/target",
