@@ -12,7 +12,7 @@ appData=[
   mavenTestGoals: "test"
 ]
 
-env.DEFAULT_JFROG_TOOL = "jfrog-cli"
+env.DEFAULT_JFROG_TOOL = "npm"
 // env.DEFAULT_JFROG_TOOL = "artifactory-plugin"
 
 if (env.BRANCH_NAME == "master") {
