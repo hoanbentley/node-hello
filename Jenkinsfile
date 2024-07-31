@@ -12,7 +12,8 @@ appData=[
   mavenTestGoals: "test"
 ]
 
-env.DEFAULT_JFROG_TOOL = "jfrog-cli"
+// env.DEFAULT_JFROG_TOOL = "jfrog-cli"
+env.DEFAULT_JFROG_TOOL = "artifactory-plugin"
 
 if (env.BRANCH_NAME == "master") {
     echo "Production releases should go through release pipeline"
